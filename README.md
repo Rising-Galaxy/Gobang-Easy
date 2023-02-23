@@ -36,4 +36,4 @@
 ## 有问题？
 
 -   你可以在上方找到 `issue` ，在那里向我反馈
--   或者加我的 QQ : [2982388220](tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2982388220&website=www.oicqzone.com) ( 如果跳转失败: 请检查链接中tencent后是否有英文冒号，如果没有请自行添加。或者自行搜索我 )
+-   或者加我的 QQ : [2982388220](https://tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2982388220&website=www.oicqzone.com) ( 如果跳转失败: 请检查链接中tencent后是否有英文冒号，如果没有请自行添加。或者自行搜索我 )
