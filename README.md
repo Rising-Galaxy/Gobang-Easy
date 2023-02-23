@@ -1,2 +1,7 @@
 # Gobang-Easy
- 简单五子棋：人机对战、截图、复盘
+
+[![EasyX](https://img.shields.io/badge/graphics-EasyX-orange.svg)](https://easyx.cn)
+![Stars](https://img.shields.io/github/stars/Rising-Galaxy/HiEasyX)
+![Forks](https://img.shields.io/github/forks/Rising-Galaxy/HiEasyX)
+
+## 一个超简单的五子棋游戏

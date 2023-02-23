@@ -1,0 +1,61 @@
+id ICON "logo.ico"   //添加图标
+
+P_loadgui PNG "image/load.png" // 加载图
+P_bgl PNG "image/bgl.png" // 背景图左侧
+P_bgr PNG "image/bgr.png" // 背景图右侧
+P_victory_ai_white_a PNG "image/ai_victory_white_a.png" // 电脑获胜
+P_victory_ai_white_b PNG "image/ai_victory_white_b.png"
+P_victory_player_black_a PNG "image/player_victory_black_a.png" // 玩家获胜
+P_victory_player_black_b PNG "image/player_victory_black_b.png"
+P_tips_0_a PNG "image/tips_0_a.png" // 菜单
+P_tips_0_b PNG "image/tips_0_b.png"
+P_tips_1_a PNG "image/tips_1_a.png"
+P_tips_1_b PNG "image/tips_1_b.png"
+P_tips_2_a PNG "image/tips_2_a.png"
+P_tips_2_b PNG "image/tips_2_b.png"
+P_menu_0_a PNG "image/menu_0_a.png" // 菜单
+P_menu_1_a PNG "image/menu_1_a.png"
+P_menu_2_a PNG "image/menu_2_a.png"
+P_menu_0_b PNG "image/menu_0_b.png"
+P_menu_1_b PNG "image/menu_1_b.png"
+P_menu_2_b PNG "image/menu_2_b.png"
+P_same_a PNG "image/same_a.png" // 平局
+P_same_b PNG "image/same_b.png"
+P_piece_b PNG "image/piece_b.png" // 黑棋
+P_piece_w PNG "image/piece_w.png" // 白棋
+
+
+
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION 1,3,1,4
+    PRODUCTVERSION 1,3,1,4
+    FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+    FILEFLAGS VS_FF_DEBUG
+#else
+    FILEFLAGS 0x0L
+#endif
+    FILEOS VOS__WINDOWS32
+    FILETYPE VFT_DLL
+    FILESUBTYPE 0x0L
+    BEGIN
+        BLOCK "StringFileInfo"
+        BEGIN
+            BLOCK "080404b0"  //支持中文
+            BEGIN
+                VALUE "FileDescription", "星河五子棋\0"
+                VALUE "FileVersion", "1.3.1.4\0"
+                VALUE "ProductVersion", "1.3.1.4\0"
+                VALUE "OriginalFilename", "星河五子棋\0"
+                VALUE "ProductName", "星河五子棋\0"
+                VALUE "LegalCopyright", "b站up - 星之离别\0"
+           END
+        END
+        
+        BLOCK "VarFileInfo"
+        BEGIN
+            VALUE "Translation", 0x804, 1200  //语言-简体中文
+        END        
+    END
